@@ -12,3 +12,5 @@ The UV LED driver consists of a power mosfet, a transistor and a current setting
 LEDs are RL5-UV0430-400 sold by superbrightLEDs.com: https://www.superbrightleds.com/moreinfo/through-hole/5mm-uv-led-30-degree-viewing-angle-400-nm-40mw/630/1905/
 The LED driver circuit resides on the protoshield ontop of the uController.
 
+[https://github.com/hydronics2/OMSI_Satelite_Orbits/block_diagram.jpg|alt=block_diagram]
+
