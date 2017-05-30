@@ -12,6 +12,8 @@ The UV LED driver consists of a power mosfet, a transistor and a current setting
 LEDs are RL5-UV0430-400 sold by superbrightLEDs.com: https://www.superbrightleds.com/moreinfo/through-hole/5mm-uv-led-30-degree-viewing-angle-400-nm-40mw/630/1905/
 The LED driver circuit resides on the protoshield ontop of the uController.
 
+Digital Pin 10 goes to a Sparkfun Power Switch Tail that isolates the 5volt signal and switches ON a 120VAC relay to turn on the globe motor.
+
 ![alt text](https://github.com/hydronics2/OMSI_Satelite_Orbits/blob/master/block_diagram.JPG)
 
 R1 is 150ohm
