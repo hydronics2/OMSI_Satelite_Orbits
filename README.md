@@ -15,13 +15,22 @@ The LED driver circuit resides on the protoshield ontop of the uController.
 ![alt text](https://github.com/hydronics2/OMSI_Satelite_Orbits/blob/master/block_diagram.JPG)
 
 R1 is 150ohm
+
 R2 is 33ohm
+
 R3 is 150ohm
+
 Q1 is 2N3904
+
 Q2 is FQP30N06L
 
+
 UV LEDs: https://www.superbrightleds.com/moreinfo/through-hole/5mm-uv-led-30-degree-viewing-angle-400-nm-40mw/630/1905/
+
 Infrared non-contact snesor: https://www.digikey.com/products/en?keywords=qrb1134
+
 Power Switchtail: https://www.sparkfun.com/products/10747
+
 MicroController: https://www.sparkfun.com/products/13975
+
 
