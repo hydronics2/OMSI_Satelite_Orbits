@@ -5,7 +5,8 @@ An Arduino Uno monitors an infrared sensor on digital Pin 6.  When the sensor go
 pulls digital Pin 3 high turning on the constant current LED driver.  The globe and UV leds stay on for 3 minutes after the sensor is triggered.
 
 The infrared non-contact sensor is a QRB1134: https://www.digikey.com/products/en?keywords=qrb1134
-A current limiting resistor of 150ohm maintains a voltage of 1.2V and 21ma across the IR LED.  The resistor resides on the protoboard shield.
+A current limiting resistor of 150ohm maintains a voltage of 1.2V and 21ma across the IR LED.  The resistor resides on the protoboard shield. At 21ma the sensor triggers when objects are about 3/4" in front of the sensor. If the resistance is changed to 1.3volts and 32ma the IR LED can reflect light back at 1-1/8" inch away from the sensor.
+
 When the swinging arm crosses in front of the sensor, digital PIN 6 goes low and the timer is started.
 
 The UV LED driver consists of a power mosfet, a transistor and a current setting resistor of 33ohm maintaining 22ma through the LEDs. 12 volts powers three UV LEDs in series. 
